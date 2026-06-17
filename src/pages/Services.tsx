@@ -31,12 +31,26 @@ const instruments = [
     description: "Breath control, scales, and contemporary gospel phrasing.",
     icon: (
       <img
-        src="/Hero1.jpeg"
+        src="/Studio4.jpeg"
         alt="Saxophone"
         className="w-full h-full object-cover"
       />
     ),
     bg: "bg-green-50",
+  },
+
+  {
+    title: "Violin",
+    description:
+      "Rhythm, timing, fills & full kit coordination for worship bands.",
+    icon: (
+      <img
+        src="/Studio11.jpeg"
+        alt="Violin"
+        className="w-full h-full object-cover"
+      />
+    ),
+    bg: "bg-yellow-50",
   },
   {
     title: "Drums",
@@ -46,6 +60,45 @@ const instruments = [
       <img
         src="/Studio9.jpeg"
         alt="Drums"
+        className="w-full h-full object-cover"
+      />
+    ),
+    bg: "bg-yellow-50",
+  },
+  {
+    title: "Trumpet",
+    description:
+      "Rhythm, timing, fills & full kit coordination for worship bands.",
+    icon: (
+      <img
+        src="/Studio12.jpeg"
+        alt="Trumpet"
+        className="w-full h-full object-cover"
+      />
+    ),
+    bg: "bg-yellow-50",
+  },
+  {
+    title: "Trumpet",
+    description:
+      "Rhythm, timing, fills & full kit coordination for worship bands.",
+    icon: (
+      <img
+        src="/Studio18.jpeg"
+        alt="Trumpet"
+        className="w-full h-full object-cover"
+      />
+    ),
+    bg: "bg-yellow-50",
+  },
+  {
+    title: "Trumpet",
+    description:
+      "Rhythm, timing, fills & full kit coordination for worship bands.",
+    icon: (
+      <img
+        src="/Studio29.jpeg"
+        alt="Trumpet"
         className="w-full h-full object-cover"
       />
     ),
@@ -105,7 +158,7 @@ export function Services() {
         </p>
 
         {/* Instrument cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3.5 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 mb-16">
           {instruments.map((item) => (
             <div
               key={item.title}
@@ -138,7 +191,7 @@ export function Services() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 mb-16 md:grid-cols-span-2">
           {plans.map((plan) => (
             <div
               key={plan.name}
@@ -194,7 +247,7 @@ export function Services() {
             Our studio
           </h3>
           <p className="text-[14px] text-gray-500">
-            Replace these placeholders with your own photos.
+            Explore our space where students learn, practice, and create music.
           </p>
         </div>
 
@@ -206,16 +259,38 @@ export function Services() {
           <img src="/your-photo.jpg" alt="..." className="w-full h-full object-cover rounded-xl" />
         */}
         <div
-          className="grid grid-cols-1 md:grid-cols-3 gap-2.5"
-          style={{ gridTemplateRows: "400px 400px" }}
+          className="grid grid-cols-2 md:grid-cols-5 gap-2.5"
+          style={{ gridTemplateRows: "150px 150px" }}
         >
           {[
             { src: "/Studio2.jpeg", alt: "Studio photo 2" },
             { src: "/Studio3.jpeg", alt: "Studio photo 3" },
             { src: "/Studio4.jpeg", alt: "Studio photo 4" },
-            { src: "/Studio10.jpeg", alt: "Studio photo 5" },
-            { src: "/Studio7.jpeg", alt: "Studio photo 7" },
-            { src: "/Studio8.jpeg", alt: "Studio photo 8" },
+            { src: "/Studio5.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio6.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio22.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio23.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio24.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio9.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio10.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio11.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio12.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio13.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio14.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio15.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio16.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio17.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio18.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio7.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio8.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio19.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio20.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio21.jpeg", alt: "Studio photo 4" },
+
+            { src: "/Studio25.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio26.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio27.jpeg", alt: "Studio photo 4" },
+            { src: "/Studio28.jpeg", alt: "Studio photo 4" },
           ].map(({ src, alt }) => (
             <img
               key={src}
