@@ -42,7 +42,7 @@ const instruments = [
   {
     title: "Violin",
     description:
-      "Rhythm, timing, fills & full kit coordination for worship bands.",
+      " Bow technique, finger positioning, and melodic phrasing for worship and contemporary music settings.",
     icon: (
       <img
         src="/Studio11.jpeg"
@@ -68,7 +68,7 @@ const instruments = [
   {
     title: "Trumpet",
     description:
-      "Rhythm, timing, fills & full kit coordination for worship bands.",
+      "Breath control, tone production, and melodic phrasing for powerful lead lines in worship and contemporary music settings..",
     icon: (
       <img
         src="/Studio12.jpeg"
@@ -79,26 +79,26 @@ const instruments = [
     bg: "bg-yellow-50",
   },
   {
-    title: "Trumpet",
+    title: "Trombone",
     description:
-      "Rhythm, timing, fills & full kit coordination for worship bands.",
+      "Slide technique, breath control, and smooth phrasing for rich harmonies, worship orchestration, and brass ensemble performance.",
     icon: (
       <img
         src="/Studio18.jpeg"
-        alt="Trumpet"
+        alt="Trombone"
         className="w-full h-full object-cover"
       />
     ),
     bg: "bg-yellow-50",
   },
   {
-    title: "Trumpet",
+    title: "Recorder",
     description:
-      "Rhythm, timing, fills & full kit coordination for worship bands.",
+      "Basic breath control, finger positioning, and melody reading for foundational music training and ear development..",
     icon: (
       <img
         src="/Studio29.jpeg"
-        alt="Trumpet"
+        alt="Recorder"
         className="w-full h-full object-cover"
       />
     ),

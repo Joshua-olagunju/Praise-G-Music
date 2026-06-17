@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaTiktok, FaWhatsapp } from "react-icons/fa";
 export function Footer() {
   const quickLinks = ["Home", "About us", "Services", "Contact"];
   const instruments = [
@@ -12,27 +12,21 @@ export function Footer() {
   const socials = [
     {
       label: "Facebook",
-      icon: <FaFacebook size={16} />,
-      href: "#",
-      color: "hover:border-blue-500 hover:text-blue-600",
+      icon: <FaFacebook size={20} />,
+      href: "https://www.facebook.com/share/1Cx73MEYgV/?mibextid=wwXIfr",
+      color: "hover:bg-blue-50 hover:text-blue-600 hover:border-blue-500",
     },
     {
-      label: "Instagram",
-      icon: <FaInstagram size={16} />,
-      href: "#",
-      color: "hover:border-pink-500 hover:text-pink-600",
-    },
-    {
-      label: "YouTube",
-      icon: <FaYoutube size={16} />,
-      href: "#",
-      color: "hover:border-red-500 hover:text-red-600",
+      label: "Tiktok",
+      icon: <FaTiktok size={20} />,
+      href: "https://www.tiktok.com/@praisesax1?_r=1&_t=ZS-97HepLzSJBE",
+      color: "hover:bg-black/5 hover:text-black hover:border-black",
     },
     {
       label: "WhatsApp",
-      icon: <FaWhatsapp size={16} />,
-      href: "#",
-      color: "hover:border-green-500 hover:text-green-600",
+      icon: <FaWhatsapp size={20} />,
+      href: "https://wa.me/2348168818439?text=Hello%2C%20I%20am%20interested%20in%20enrolling%20at%20Praise-G%20Music%20Institute",
+      color: "hover:bg-green-50 hover:text-green-600 hover:border-green-500",
     },
   ];
   return (
@@ -66,6 +60,7 @@ export function Footer() {
                 <a
                   key={label}
                   href={href}
+                  target="_blank"
                   aria-label={label}
                   className={`w-[34px] h-[34px] border border-gray-200 rounded-lg flex items-center justify-center text-gray-400 transition-colors ${color}`}
                 >
@@ -142,7 +137,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-100 pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <p className="text-[12px] text-gray-300">
-            &copy; 2025 Praise-G Music Institute. All rights reserved.
+            &copy; 2026 Praise-G Music Institute. All rights reserved.
           </p>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5">
             <div className="flex gap-5">
