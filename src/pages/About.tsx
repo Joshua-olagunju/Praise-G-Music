@@ -36,7 +36,7 @@ export function About() {
                 TB
               </div>
               <div>
-                <p className="text-sm font-medium text-gray-900">Tobi Babarinde</p>
+                <p className="text-sm font-medium text-gray-900">Mr Tobi Babarinde</p>
                 <p className="text-xs text-gray-400 mt-0.5">
                   Founder &amp; Director, Praise-G Music Institute
                 </p>

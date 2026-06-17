@@ -38,7 +38,6 @@ export function FAQ() {
   return (
     <section className="bg-white py-20 px-6 border-b border-gray-100" id="faq">
       <div className="max-w-[680px] mx-auto">
-
         {/* Heading */}
         <p className="text-center text-xs font-medium uppercase tracking-widest text-red-600 mb-2">
           Got questions?
@@ -95,7 +94,7 @@ export function FAQ() {
           </p>
           <div className="flex items-center justify-center gap-2.5 flex-wrap">
             <a
-              href="https://wa.me/234XXXXXXXXXX"
+              href="https://wa.me/2348168818439?text=Hello%2C%20I%20am%20interested%20in%20enrolling%20at%20Praise-G%20Music%20Institute"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] text-white text-[13px] font-medium px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
@@ -103,7 +102,7 @@ export function FAQ() {
               <FaWhatsapp size={15} /> WhatsApp
             </a>
             <a
-              href="https://tiktok.com/@praise-g"
+              href="https://www.tiktok.com/@praisesax1?_r=1&_t=ZS-97HepLzSJBE"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#111111] text-white text-[13px] font-medium px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
@@ -111,7 +110,7 @@ export function FAQ() {
               <FaTiktok size={14} /> TikTok
             </a>
             <a
-              href="https://facebook.com/praise-g"
+              href="https://www.facebook.com/share/1Cx73MEYgV/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#1877F2] text-white text-[13px] font-medium px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
@@ -120,7 +119,6 @@ export function FAQ() {
             </a>
           </div>
         </div>
-
       </div>
     </section>
   );
