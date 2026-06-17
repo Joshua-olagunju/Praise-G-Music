@@ -36,7 +36,10 @@ export function Footer() {
     },
   ];
   return (
-    <footer className="bg-white border-t border-gray-100 pt-16 pb-8 px-6">
+    <footer
+      className="bg-white border-t border-gray-100 pt-16 pb-8 px-6"
+      id="contact"
+    >
       <div className="max-w-5xl mx-auto">
         {/* Top grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-12">
@@ -121,8 +124,8 @@ export function Footer() {
                   icon: "📍",
                   text: "Clinic Bus Stop, Iyana Isashi, Lagos, Nigeria",
                 },
-                { icon: "📞", text: "+234 000 000 0000" },
-                { icon: "✉️", text: "hello@praise-g.com" },
+                { icon: "📞", text: "+234 816 881 8439" },
+                { icon: "✉️", text: "praisesax001@gmail.com" },
               ].map(({ icon, text }) => (
                 <li
                   key={text}
@@ -156,7 +159,7 @@ export function Footer() {
             <p className="text-[12px] text-gray-300">
               Designed &amp; developed by{" "}
               <a
-                href="https://tinyurl.com/2vs793az"
+                href="https://react-portfolio-eight-olive.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-red-500 hover:text-red-600 transition-colors"
